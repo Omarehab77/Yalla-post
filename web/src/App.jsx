@@ -3,7 +3,9 @@ import { CssBaseline, ThemeProvider, Box, useMediaQuery } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import { LanguageProvider } from "./pages/translations/LanguageContext";
 import { useEffect } from "react";
-
+import RequestConsultation from "./pages/RequestConsultation";
+import BecomeEntrepreneur from "./pages/BecomeEntrepreneur";
+import OurProcess from "./OurProcess";
 import Hero from "./components/hero/Hero";
 import Home from "./pages/Home";
 import DesignStudio from "./pages/DesignStudio";

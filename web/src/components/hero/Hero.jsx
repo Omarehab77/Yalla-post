@@ -325,7 +325,7 @@ const Hero = ({ isMobile, isTablet }) => {
               objectFit: 'contain',
             }}
           >
-            <source src="./dist/images/demo.mp4" type="video/mp4" />
+            <source src="/images/demo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </Box>
           <Button
@@ -454,7 +454,7 @@ const Hero = ({ isMobile, isTablet }) => {
       >
         <Box sx={{ width: "120px" }}>
           <img 
-            src="./dist/images/gg.png" 
+            src="/images/gg.png" 
             alt="Logo" 
             style={{ 
               width: "100%", 
