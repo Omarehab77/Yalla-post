@@ -1905,7 +1905,7 @@ const LiveAICourses = () => {
             flexDirection: language === 'ar' ? 'row-reverse' : 'row'
           }}>
             <img 
-              src="./dist/images/gg.png" 
+              src="/images/gg.png" 
               alt="Company Logo" 
               style={{ 
                 width: "100px", 

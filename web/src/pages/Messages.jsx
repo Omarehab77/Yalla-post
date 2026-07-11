@@ -166,7 +166,7 @@ const Messages = () => {
       }}>
         <Box sx={{ width: "120px" }}>
           <img 
-            src="./dist/images/gg.png" 
+            src="/images/gg.png" 
             alt={t('companyLogo')} 
             style={{ 
               width: "100%", 
@@ -215,7 +215,7 @@ const Messages = () => {
             flexDirection: getFlexDirection(language)
           }}>
             <img 
-              src="./dist/images/gg.png" 
+              src="/images/gg.png" 
               alt={t('companyLogo')} 
               style={{ 
                 width: "100px", 

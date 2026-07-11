@@ -1675,7 +1675,7 @@ if (designToSave) {
         ...(language === 'ar' && { flexDirection: 'row-reverse' })
       }}>
         <Box sx={{ width: 120, mr: 2 }}>
-          <img src="./dist/images/gg.png" alt="Logo" style={{ width: '100%' }} />
+          <img src="/images/gg.png" alt="Logo" style={{ width: '100%' }} />
         </Box>
         
         <Box sx={{ flex: 1, display: 'flex', justifyContent: 'center', gap: 2 }}>
@@ -1848,7 +1848,7 @@ if (designToSave) {
             flexDirection: getFlexDirection(language)
           }}>
             <img 
-              src="./dist/images/gg.png" 
+              src="/images/gg.png" 
               alt={t('companyLogo')} 
               style={{ 
                 width: "100px", 

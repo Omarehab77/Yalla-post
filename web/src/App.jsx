@@ -47,7 +47,7 @@ function App() {
                   <Route path="/DesignStudio" element={<DesignStudio isMobile={isMobile} isTablet={isTablet} />} />
                   <Route path="/start-design" element={<StartDesign isMobile={isMobile} isTablet={isTablet} />} />
                   <Route path="/auth" element={<AuthModal isMobile={isMobile} isTablet={isTablet} />} />
-                  <Route path="/designs" element={<Designs isMobile={isMobile} isTablet={isTablet} />} />
+                  {/* <Route path="/designs" element={<Designs isMobile={isMobile} isTablet={isTablet} />} /> */}
                   <Route path="/request-consultation" element={<RequestConsultation isMobile={isMobile} isTablet={isTablet} />} />
                   <Route path="/marketing" element={<MarketingServices />} />
                   <Route path="/Checkout" element={<CheckoutPage />} />

@@ -206,7 +206,7 @@ const ContactUs = () => {
       }}>
         <Box sx={{ width: "120px" }}>
           <img 
-            src="./dist/images/gg.png" 
+            src="/images/gg.png" 
             alt={t('companyLogo')} 
             style={{ 
               width: "100%", 
@@ -255,7 +255,7 @@ const ContactUs = () => {
             flexDirection: language === 'ar' ? 'row-reverse' : 'row'
           }}>
             <img 
-              src="./dist/images/gg.png" 
+              src="/gg.png" 
               alt={t('companyLogo')} 
               style={{ 
                 width: "100px", 

@@ -213,7 +213,7 @@ const OurProcess = () => {
       }}>
         <Box sx={{ width: "120px" }}>
           <img 
-            src="./dist/images/gg.png" 
+            src="/images/gg.png" 
             alt={t('companyLogo')} 
             style={{ 
               width: "100%", 
@@ -262,7 +262,7 @@ const OurProcess = () => {
             flexDirection: language === 'ar' ? 'row-reverse' : 'row'
           }}>
             <img 
-              src="./dist/images/gg.png" 
+              src="/images/gg.png" 
               alt={t('companyLogo')} 
               style={{ 
                 width: "100px", 

@@ -224,7 +224,7 @@ const DesignStudio = ({ isMobile }) => {
       }}>
         <Box sx={{ width: "120px" }}>
           <img 
-            src="./dist/images/gg.png" 
+            src="/images/gg.png" 
             alt={t('companyLogo')} 
             style={{ 
               width: "100%", 
@@ -273,7 +273,7 @@ const DesignStudio = ({ isMobile }) => {
             flexDirection: getFlexDirection(language)
           }}>
             <img 
-              src="./dist/images/gg.png" 
+              src="/images/gg.png" 
               alt={t('companyLogo')} 
               style={{ 
                 width: "100px", 
