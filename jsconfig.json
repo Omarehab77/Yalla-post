@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "jsx": "react-jsx",
+      "baseUrl": ".",
+      "resolveJsonModule": true,
+      "lib": ["ESNext", "DOM"],
+      "checkJs": false
+    },
+    "include": ["**/*.js", "**/*.jsx"],
+    "exclude": ["node_modules", "build"]
+  }
