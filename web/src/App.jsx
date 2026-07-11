@@ -8,17 +8,13 @@ import Hero from "./components/hero/Hero";
 import Home from "./pages/Home";
 import DesignStudio from "./pages/DesignStudio";
 import StartDesign from "./pages/startdesign";
-import AuthModal from './Pages/AuthModal';
-import { AuthProvider } from './Pages/AuthContext';
-import Designs from './pages/Designs';
-import RequestConsultation from "./pages/RequestConsultation";
-import MarketingServices from "./Pages/MarketingServices";
-import CheckoutPage from "./Pages/CheckoutPage";
-import ProfessionalDesign from "./Pages/ProfessionalDesign";
-import Messages from "./Pages/Messages";
-import OurProcess from "./OurProcess";
-import BecomeEntrepreneur from "./pages/BecomeEntrepreneur";  
-import ContactUs from "./Pages/ContactUs";
+import AuthModal from "./pages/AuthModal";
+import { AuthProvider } from "./pages/AuthContext";
+import MarketingServices from "./pages/MarketingServices";
+import CheckoutPage from "./pages/CheckoutPage";
+import ProfessionalDesign from "./pages/ProfessionalDesign";
+import Messages from "./pages/Messages";
+import ContactUs from "./pages/ContactUs";
 // Import the new AI Instructor component
 import LiveAICourses from "./pages/LiveAICourses";
 
